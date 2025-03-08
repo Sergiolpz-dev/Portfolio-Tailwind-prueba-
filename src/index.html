@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio - Tailwind</title>
 </head>
-<body>
 
+<body class=" text-indigo-50 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+
+    <header class="bg-transparent h-16 fixed top-0 left-0 w-full ">
+        <nav class="h-full flex items-center justify-center justify-evenly">
+            <ul id="navbar" class="flex h-fit text-xs md:text-sm  w-fit md:py-1.5 md:px-4 rounded-full ">
+                <li class="cursor-pointer hover:text-[#facc15] hover:scale-105 transition 300 ease rounded-full px-3 py-2"><a href="#Home">Inicio</a></li>
+                <li class="cursor-pointer hover:text-[#facc15] hover:scale-105 transition 300 ease rounded-full px-3 py-2"><a href="#Projects">Projectos</a></li>
+                <li class="cursor-pointer hover:text-[#facc15] hover:scale-105 transition 300 ease rounded-full px-3 py-2"><a href="#Experiencie">Experiencia</a></li>
+                <li class="cursor-pointer hover:text-[#facc15] hover:scale-105 transition 300 ease rounded-full px-3 py-2"><a href="#About">Sobre mí</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
 
+        <!-- Secciones con IDs correspondientes -->
+        <section id="Home" class="section h-screen flex justify-center items-center">
+            <h2>Home Section</h2>
+        </section>
+        <section id="Projects" class="section h-screen flex justify-center items-center">
+            <h2>Projects Section</h2>
+        </section>
+        <section id="Experiencie" class="section h-screen flex justify-center items-center">
+            <h2>Experience Section</h2>
+        </section>
+        <section id="About" class="section h-screen flex justify-center items-center">
+            <h2>About Section</h2>
+        </section>
+    </main>
+        <script src="script.js"></script>
 </body>
 </html>
